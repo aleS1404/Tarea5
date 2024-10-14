@@ -1,0 +1,30 @@
+.padreL{
+    padding:5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: "headerL headerL headerL"
+                          "navL navL navL"
+                          "contL1 contL2 contL3"
+                          "footL footL footL";
+    
+}
+.padreL .headerL{
+    grid-area: headerL;
+}
+.padreL .navL{
+    grid-area: navL;
+}
+.padreL .contL1{
+    grid-area: contL1;
+}
+.padreL .contL2{
+    grid-area: contL2;
+}
+.padreL .contL3{
+    grid-area: contL3;
+}
+.padrLA .footL{
+    grid-area: footL;
+}

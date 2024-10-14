@@ -1,0 +1,30 @@
+.padreP{
+    padding:5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-areas: "headerP headerP headerP"
+                          "navP navP navP"
+                          "contP1 contP2 contP3"
+                          "footP footP footP";
+    
+}
+.padreP .headerP{
+    grid-area: headerP;
+}
+.padreP .navP{
+    grid-area: navP;
+}
+.padreP .contP1{
+    grid-area: contP1;
+}
+.padreP .contP2{
+    grid-area: contP2;
+}
+.padreP .contP3{
+    grid-area: contP3;
+}
+.padreP .footP{
+    grid-area: footP;
+}
